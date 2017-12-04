@@ -1,12 +1,14 @@
 ## GitHub Search  101
 
-### Scope
+### 1. Scope
 
-- in:file
-- in:path
-- in:file,path
+```
+in:file
+in:path
+in:file,path
+```
 
-**Exapmle**
+Example
 
 ```
 octocat in:file
@@ -14,22 +16,26 @@ octocat in:path
 octocat in:file,path
 ```
 
-### Language
+### 2. Language
 
-- language:LANGUAGE
+```
+language:LANGUAGE
+```
 
-**Example**
+Example
 
 ```
 element language:xml
 display language:scss
 ```
 
-### File Name
+### 3. File Name
 
-- filename:FILENAME
+```
+filename:FILENAME
+```
 
-**Example**
+Example
 
 ```
 filename:.vimrc
@@ -37,23 +43,27 @@ filename:appsettings.json
 filename:tsconfig.json
 ```
 
-### File Extension
+### 4. File Extension
 
-- extension:EXTENSION
+```
+extension:EXTENSION
+```
 
-**Example**
+Example
 
 ```
 icon extension:css
 ```
 
-### User / Organization
+### 5. User / Organization / Repository
 
-- user:USERNAME
-- org:ORGNAME
-- repo:USERNAME/REPOSITORY
+```
+user:USERNAME
+org:ORGNAME
+repo:USERNAME/REPOSITORY
+```
 
-**Example**
+Example
 
 ```
 user:defunkt extension:rb
